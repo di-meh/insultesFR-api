@@ -1,7 +1,10 @@
 
+![Logo](https://i.ibb.co/jLKFrW0/API-Logo.png)
+
+
 # API d'insultes françaises
 
-Le nom du projet est assez explicite.
+Une API simple avec plus de 100 insultes françaises. 
 
 
 ## Exemple d'utilisation
@@ -14,11 +17,11 @@ print(response.json())
 ```
 
 
-## Contribution
+## Contributions
 
-Les contribution sont les bienvenues.
+Les contribution sont toujours les bienvenues!
 
-N'hésitez pas à faire des pull request, et à améliorer le code ou ajouter de nouvelles insultes!
+N'hésitez pas à améliorer le code ou à ajouter de nouvelles insultes
 
 
 
