@@ -1,7 +1,4 @@
 
-![Logo](https://i.ibb.co/jLKFrW0/API-Logo.png)
-
-
 # API d'insultes françaises
 
 Une API simple avec plus de 100 insultes françaises. 
@@ -14,6 +11,21 @@ import requests
 
 response=requests.get('http://insultefr.mywire.org/api')
 print(response.json())
+```
+
+## API Reference
+
+#### Insulte aléatoire
+
+```http
+  GET /api
+```
+
+
+#### Toutes les insultes
+
+```http
+  GET /api/all
 ```
 
 
