@@ -1,16 +1,40 @@
 body{
-    background-color: #121110;
+    background-color: #16161f;
     color: rgb(239, 246, 255);
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.2;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-a{
+.Center {
+    width:800px;
+    height:250px;
+   
+    margin:auto;
+    position:absolute;
+    top:0;bottom:0;
+    left:0;right:0;
+
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+   }
+
+.Button {
+    line-height: 1;
+    background-color: #b0d2ff;
+    border: none;
+    border-radius: 7px;
+    color: #16161f;
+    padding: 0px 40px;;
+    text-align: center;
     text-decoration: none;
-    color: rgb(101, 168, 255);
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }

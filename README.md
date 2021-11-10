@@ -9,7 +9,7 @@ Une API simple avec plus de 100 insultes françaises.
 ```python
 import requests
 
-response=requests.get('http://insultefr.mywire.org/api')
+response=requests.get('http://insultefr.mywire.org/api/random')
 print(response.json())
 ```
 
@@ -18,9 +18,13 @@ print(response.json())
 #### Insulte aléatoire
 
 ```http
-  GET /api
+  GET /api/random
 ```
 
+#### Instulte spécifique
+```http
+  GET /api/id/{id}
+```
 
 #### Toutes les insultes
 
